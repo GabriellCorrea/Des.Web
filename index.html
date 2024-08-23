@@ -6,15 +6,19 @@
         <link rel="stylesheet" href="estilo.css">  
     </head>
         <h1>Olá!</h1>
-        <p>CLIQUE ABAIXO para ver a MAIOR coisa do mundo!!!!</p>
+        <div class="caixa">
+          <p>CLIQUE ABAIXO para ver a MAIOR coisa do mundo!!!!</p>
+          <button onclick="teste()">Clique aqui.</button>
+        </div>
         <script>
             function teste(){
               window.location.href = 'Flu.html';
             }
         </script>
-          <button onclick="teste()">Clique aqui.</button>
-          <p class="texto" id="texto">Clique no botão para mudar este texto.</p>
-          <button onclick="mudar_texto()">Mudar texto</button>
+          <div class="caixa2">
+            <p class="texto" id="texto">Clique no botão para mudar este texto.</p>
+            <button onclick="mudar_texto()">Mudar texto</button>
+          </div>
           <script src="script.js"></script>
     </body>
  </html>
