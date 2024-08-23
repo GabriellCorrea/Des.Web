@@ -1,7 +1,8 @@
 
     .fluminense {
         font-size: 60px;
-        color: #7b1d1d;
+        color: #ffffff;
         text-align: center;
         margin-top: 20%;
+        background: radial-gradient(circle, rgb(13, 79, 35), rgb(150, 50, 50));
     }

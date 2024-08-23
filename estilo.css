@@ -11,6 +11,7 @@
             font-size: 60px;
             line-height: 2;
             text-align: center;
+            background-color: rgb(255, 228, 196);
         }
 
         button {
@@ -19,6 +20,10 @@
             display: block;
             margin: 0 auto;
             border-radius: 22%;
+        }
+
+        .texto{
+            background-color: bisque;
         }
 
 
