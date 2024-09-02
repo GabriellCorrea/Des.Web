@@ -1,0 +1,36 @@
+h1 {
+    color: rgb(100, 85, 85);
+    background-color: rgb(68, 25, 109);
+}
+
+span {
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    color: rgb(25, 99, 168);
+    background-color: cornflowerblue;
+}
+
+h3 {
+    color: bisque;
+    background-color: brown;
+}
+
+h4 {
+    color: rgb(20, 109, 9);
+    background-color: chartreuse;
+}
+
+h5 {
+    color: darkgoldenrod;
+    background-color: rgb(116, 92, 49);
+}
+
+h6 {
+    color: darkslategray;
+    background-color: burlywood;
+}
+
+
+

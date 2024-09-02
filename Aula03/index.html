@@ -3,13 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
         <title>Aula03</title>
     </head>
     <body>
-        <h1>h1</h1>
+        <form method="get">
+            <label>Name:
+                <input name="submitted-name" autocomplete="name">
+            </label>
+            <button>Save</button>
+        </form>
+        <form method="post">
+            <label>Name:
+                <input name="submitted-name" autocomplete="name">
+            </label>
+            <button>Save</button>
+        </form>
+        <h1 id="meu-h1"> H1
                 <div><p>Primeiro <span>Parágrafo</span> do h1</p></div>
-                <p>Segundo Parágrafo do h1</p>
-        <h2>h2</h2>
+                <p>Segundo <span>Parágrafo</span> do h1</p>
+        </h1>
+        <h2>H2
         <ul>
             <li>Um ítem do h2</li>
             <li>Outro item do h2</li>
@@ -20,17 +34,25 @@
                 </ol>
             </li>
         </ul>
-        <h3>h3</h3>
+        </h2>
+        <h3> H3
             <pre>
-                nome        idade
-                gabriel     18
+                <ins>nome</ins>        <ins>idade</ins>        <ins>ano</ins>        <ins>mês</ins>     
+                gabriel     18           2006       agosto
             </pre>
-        <h4>h4</h4>
-        <h5>h5</h5>
-        <h6>h6</h6>
+        </h3>
+        <h4>H4
+            <p>Isso tem que estar em ítalico: <em>gabriel</em></p>
+        </h4>
+        <h5>H5</h5>
+        <h6>H6
         <menu>
-            <li>link 1</li>
-            <li>link 2</li>
+            <li><a href="https://www.fluminense.com.br/site/">site1</a></li>
+            <li><a href="#meu-h1">Link interno</a></li>
         </menu>
+        </h6>
+        <video controls src="doguinho.mp4" width="400">Dog</video>
+        <img src="paisagem.jpg" width="400">
+        <audio controls src="light-my-fire.mp3">musica</audio>    
     </body>
 </html>
