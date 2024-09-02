@@ -1,6 +1,8 @@
 h1 {
     color: rgb(100, 85, 85);
     background-color: rgb(68, 25, 109);
+    width: 32%;
+    text-align: center;
 }
 
 span {
@@ -10,16 +12,21 @@ span {
 h2 {
     color: rgb(25, 99, 168);
     background-color: cornflowerblue;
+    width: 32%;
 }
 
 h3 {
     color: bisque;
     background-color: brown;
+    text-align: center;
+    width: 32%;
 }
 
 h4 {
     color: rgb(20, 109, 9);
-    background-color: chartreuse;
+    background-color: rgb(98, 173, 24);
+    text-align: center;
+    width: 32%;
 }
 
 h5 {
@@ -31,6 +38,3 @@ h6 {
     color: darkslategray;
     background-color: burlywood;
 }
-
-
-
