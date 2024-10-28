@@ -1,0 +1,13 @@
+p {
+    font-size: 15px;
+}
+
+#Container {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+#container > article {
+    width: 15rem;
+}
+
