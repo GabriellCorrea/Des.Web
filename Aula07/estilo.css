@@ -1,13 +1,19 @@
-p {
-    font-size: 15px;
-}
-
-#Container {
-   display: flex;
-   flex-wrap: wrap;
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #container > article {
-    width: 15rem;
+    width: calc(30%); 
+    border: 5px solid black;
+    margin: 10px; 
+    box-sizing: border-box; 
+    background-color: #654587;
+
+    a, a:visited{color: white}
 }
 
+#container img {
+    max-width: 100%;
+}
